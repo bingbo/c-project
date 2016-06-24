@@ -1,0 +1,6 @@
+<?php
+echo date('Y-m-d H:i:s',strtotime('today + 1 day 00:00:00')) . "\n";
+echo date('Y-m-d H:i:s',strtotime('today midnight')) . "\n";
+echo date('Y-m-d H:i:s',strtotime('today')) . "\n";
+echo date('Y-m-d H:i:s',strtotime('now')) . "\n";
+?>
